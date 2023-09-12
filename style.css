@@ -8,25 +8,25 @@ body {
 }
 
 .bg-theme {
-  background-color: #04d3f5;
+  background-color: #f6f0e9;
 }
 
 .text-theme {
-  color: #04d3f5;
+  color: #4a044e;
 }
 
 .shadow-theme {
-  --tw-shadow-color: #04d3f5;
+  --tw-shadow-color: #4a044e;
 }
 
 .border-theme {
-  border-color: #04d3f5;
+  border-color: #4a044e;
 }
 
 .btn-register {
   font-size: 16px;
-  color: white;
-  border: 2px solid #12d4f4;
+  color: #4a044e;
+  border: 2px solid #4a044e;
   padding: 10px 40px;
   border-radius: 4px;
   font-weight: 600;
@@ -38,7 +38,8 @@ body {
 }
 
 .btn-register:hover {
-  background: #12d4f4;
+  background: #4a044e;
+  color: white;
 }
 
 .robot {
@@ -53,10 +54,12 @@ body {
     -webkit-transform: translatey(0px);
     transform: translatey(0px);
   }
+
   50% {
     -webkit-transform: translatey(-25px);
     transform: translatey(-25px);
   }
+
   100% {
     -webkit-transform: translatey(0px);
     transform: translatey(0px);
@@ -68,10 +71,12 @@ body {
     -webkit-transform: translatey(0px);
     transform: translatey(0px);
   }
+
   50% {
     -webkit-transform: translatey(-25px);
     transform: translatey(-25px);
   }
+
   100% {
     -webkit-transform: translatey(0px);
     transform: translatey(0px);
@@ -91,10 +96,12 @@ body {
     display: none;
     opacity: 0;
   }
+
   1% {
     display: block;
     opacity: 0;
   }
+
   100% {
     display: block;
     opacity: 1;
@@ -106,10 +113,12 @@ body {
     display: none;
     opacity: 0;
   }
+
   1% {
     display: block;
     opacity: 0;
   }
+
   100% {
     display: block;
     opacity: 1;
@@ -121,10 +130,12 @@ body {
     display: none;
     opacity: 0;
   }
+
   1% {
     display: block;
     opacity: 0;
   }
+
   100% {
     display: block;
     opacity: 1;
@@ -136,10 +147,12 @@ body {
     display: none;
     opacity: 0;
   }
+
   1% {
     display: block;
     opacity: 0;
   }
+
   100% {
     display: block;
     opacity: 1;
@@ -150,5 +163,5 @@ body {
   .btn-register {
     font-size: 14px;
     padding: 10px 30px;
-  } 
+  }
 }
