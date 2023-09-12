@@ -1,0 +1,154 @@
+body {
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  /* color: white; */
+  height: 100%;
+  margin-top: 20px;
+  color: white !important;
+}
+
+.bg-theme {
+  background-color: #04d3f5;
+}
+
+.text-theme {
+  color: #04d3f5;
+}
+
+.shadow-theme {
+  --tw-shadow-color: #04d3f5;
+}
+
+.border-theme {
+  border-color: #04d3f5;
+}
+
+.btn-register {
+  font-size: 16px;
+  color: white;
+  border: 2px solid #12d4f4;
+  padding: 10px 40px;
+  border-radius: 4px;
+  font-weight: 600;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  /* text-transform: uppercase; */
+  cursor: pointer;
+  background: none;
+}
+
+.btn-register:hover {
+  background: #12d4f4;
+}
+
+.robot {
+  -webkit-transform: translatey(0px);
+  transform: translatey(0px);
+  -webkit-animation: float 5s ease-in-out infinite;
+  animation: float 5s ease-in-out infinite;
+}
+
+@-webkit-keyframes float {
+  0% {
+    -webkit-transform: translatey(0px);
+    transform: translatey(0px);
+  }
+  50% {
+    -webkit-transform: translatey(-25px);
+    transform: translatey(-25px);
+  }
+  100% {
+    -webkit-transform: translatey(0px);
+    transform: translatey(0px);
+  }
+}
+
+@keyframes float {
+  0% {
+    -webkit-transform: translatey(0px);
+    transform: translatey(0px);
+  }
+  50% {
+    -webkit-transform: translatey(-25px);
+    transform: translatey(-25px);
+  }
+  100% {
+    -webkit-transform: translatey(0px);
+    transform: translatey(0px);
+  }
+}
+
+.eye {
+  display: block;
+  -webkit-animation: fadeInFromNone 0.5s ease-out;
+  -moz-animation: fadeInFromNone 0.5s ease-out;
+  -o-animation: fadeInFromNone 0.5s ease-out;
+  animation: fadeInFromNone 4s ease-out;
+}
+
+@-webkit-keyframes fadeInFromNone {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+  1% {
+    display: block;
+    opacity: 0;
+  }
+  100% {
+    display: block;
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeInFromNone {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+  1% {
+    display: block;
+    opacity: 0;
+  }
+  100% {
+    display: block;
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeInFromNone {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+  1% {
+    display: block;
+    opacity: 0;
+  }
+  100% {
+    display: block;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInFromNone {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+  1% {
+    display: block;
+    opacity: 0;
+  }
+  100% {
+    display: block;
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .btn-register {
+    font-size: 14px;
+    padding: 10px 30px;
+  } 
+}
