@@ -170,7 +170,8 @@ header {
   position: relative;
 }
 
-header::before {
+header::before,
+footer::before {
   content: "";
   position: absolute;
   top: 0;
@@ -182,4 +183,8 @@ header::before {
   background-size: 300px;
   opacity: 0.07;
   z-index: -1;
+}
+
+footer {
+  position: relative;
 }
