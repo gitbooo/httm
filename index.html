@@ -2506,7 +2506,8 @@
                   </li>
                   <li>
                     <div class="flex items-center space-x-4 lg:space-x-6">
-                      <img class="w-16 h-16 rounded-full lg:w-20 lg:h-20" src="./img/Leonard Boussioux.jpg" alt="picture">
+                      <img class="w-16 h-16 rounded-full lg:w-20 lg:h-20" src="./img/Leonard Boussioux.jpg"
+                        alt="picture">
                       <div class="font-medium text-lg text-fuchsia-950 leading-6 space-y-1">
                         <h3>Léonard Boussioux</h3>
                         <p class="text-theme text-gray-400">Assistant Professor in Information Systems and Operations
@@ -2516,7 +2517,8 @@
                   </li>
                   <li>
                     <div class="flex items-center space-x-4 lg:space-x-6">
-                      <img class="w-16 h-16 rounded-full lg:w-20 lg:h-20" src="./img/alexander jacquillat.jpeg" alt="picture">
+                      <img class="w-16 h-16 rounded-full lg:w-20 lg:h-20" src="./img/alexander jacquillat.jpeg"
+                        alt="picture">
                       <div class="font-medium text-lg text-fuchsia-950 leading-6 space-y-1">
                         <h3>Alexandre Jacquillat</h3>
                         <p class="text-theme text-gray-400">Associate Professor of Operations Research and Statistics at
@@ -2814,7 +2816,7 @@
               </h2>
               <div x-ref="tab" :style="handleToggle()"
                 class="border-l-2 border-white overflow-hidden max-h-0 duration-500 transition-all" style="">
-                <p class="p-3 text-gray-200">
+                <p class="p-3 text-fuchsia-950">
                   Yes, applying and competing in the hackathon is free.
                 </p>
               </div>
@@ -2834,27 +2836,10 @@
               </h2>
               <div x-ref="tab" :style="handleToggle()"
                 class="border-l-2 border-white overflow-hidden max-h-0 duration-500 transition-all" style="">
-                <p class="p-3 text-gray-200">Breakfast/Lunch/Dinner</p>
+                <p class="p-3 text-fuchsia-950">Breakfast and Lunch</p>
               </div>
             </li>
-            <li class="my-2 shadow-lg rounded border border-gray-700 aos-init" data-aos="fade-down-left"
-              x-data="accordion(3)">
-              <h2 @click="handleClick()"
-                class="flex flex-row justify-between items-center font-semibold p-3 cursor-pointer">
-                <span class="text-gray-400">Lodging? </span>
-                <svg :class="handleRotate()"
-                  class="fill-current text-gray-400 h-6 w-6 transform transition-transform duration-500"
-                  viewBox="0 0 20 20">
-                  <path
-                    d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10">
-                  </path>
-                </svg>
-              </h2>
-              <div x-ref="tab" :style="handleToggle()"
-                class="border-l-2 border-white overflow-hidden max-h-0 duration-500 transition-all" style="">
-                <p class="p-3 text-gray-200">Free in UM6P</p>
-              </div>
-            </li>
+
             <li class="my-2 shadow-lg rounded border border-gray-700 aos-init" data-aos="fade-down-right"
               x-data="accordion(4)">
               <h2 @click="handleClick()"
@@ -2870,49 +2855,11 @@
               </h2>
               <div x-ref="tab" :style="handleToggle()"
                 class="border-l-2 border-white overflow-hidden max-h-0 duration-500 transition-all" style="">
-                <p class="p-3 text-gray-200">None, just passion for AI</p>
+                <p class="p-3 text-fuchsia-950">None, just passion for AI</p>
               </div>
             </li>
-            <li class="my-2 shadow-lg rounded border border-gray-700 aos-init" data-aos="fade-down-left"
-              x-data="accordion(5)">
-              <h2 @click="handleClick()"
-                class="flex flex-row justify-between items-center font-semibold p-3 cursor-pointer">
-                <span class="text-gray-400">When will I be contacted? </span>
-                <svg :class="handleRotate()"
-                  class="fill-current text-gray-400 h-6 w-6 transform transition-transform duration-500"
-                  viewBox="0 0 20 20">
-                  <path
-                    d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10">
-                  </path>
-                </svg>
-              </h2>
-              <div x-ref="tab" :style="handleToggle()"
-                class="border-l-2 border-white overflow-hidden max-h-0 duration-500 transition-all" style="">
-                <p class="p-3 text-gray-200">
-                  End of April, you’ll be contacted by e-mail
-                </p>
-              </div>
-            </li>
-            <li class="my-2 shadow-lg rounded border border-gray-700 aos-init" data-aos="fade-down-right"
-              x-data="accordion(6)">
-              <h2 @click="handleClick()"
-                class="flex flex-row justify-between items-center font-semibold p-3 cursor-pointer">
-                <span class="text-gray-400">Will I need my laptop? </span>
-                <svg :class="handleRotate()"
-                  class="fill-current text-gray-400 h-6 w-6 transform transition-transform duration-500"
-                  viewBox="0 0 20 20">
-                  <path
-                    d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10">
-                  </path>
-                </svg>
-              </h2>
-              <div x-ref="tab" :style="handleToggle()"
-                class="border-l-2 border-white overflow-hidden max-h-0 duration-500 transition-all" style="">
-                <p class="p-3 text-gray-200">
-                  Not mandatory, you’re gonna have access to MACs
-                </p>
-              </div>
-            </li>
+
+
             <li class="my-2 shadow-lg rounded border border-gray-700 aos-init" data-aos="fade-down-left"
               x-data="accordion(7)">
               <h2 @click="handleClick()"
@@ -2928,8 +2875,8 @@
               </h2>
               <div x-ref="tab" :style="handleToggle()"
                 class="border-l-2 border-white overflow-hidden max-h-0 duration-500 transition-all" style="">
-                <p class="p-3 text-gray-200">
-                  No, teams must be composed of 2-3 members
+                <p class="p-3 text-fuchsia-950">
+                  Yes, but we do encourage you to form/join a team!
                 </p>
               </div>
             </li>
@@ -2952,8 +2899,8 @@
               <div class="flex flex-col justify-between mt-8">
                 <div class="flex justify-center">
                   <div class="flex">
-                    <a href="https://twitter.com/MARSolHackathon"><svg
-                        xmlns="http://www.w3.org/2000/svg" height="6em" viewBox="0 0 448 512"
+                    <a href="https://twitter.com/MARSolHackathon"><svg xmlns="http://www.w3.org/2000/svg" height="6em"
+                        viewBox="0 0 448 512"
                         width="300"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
                         <style>
                           svg {
@@ -2963,8 +2910,8 @@
                         <path
                           d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm297.1 84L257.3 234.6 379.4 396H283.8L209 298.1 123.3 396H75.8l111-126.9L69.7 116h98l67.7 89.5L313.6 116h47.5zM323.3 367.6L153.4 142.9H125.1L296.9 367.6h26.3z" />
                       </svg></a>
-                    <a href="https://www.linkedin.com/company/morocco-solidarity-hackathon"><svg xmlns="http://www.w3.org/2000/svg" height="6em"
-                        viewBox="0 0 448 512"
+                    <a href="https://www.linkedin.com/company/morocco-solidarity-hackathon"><svg
+                        xmlns="http://www.w3.org/2000/svg" height="6em" viewBox="0 0 448 512"
                         width="300"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
                         <style>
                           svg {
