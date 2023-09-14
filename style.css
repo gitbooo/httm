@@ -179,7 +179,7 @@ header::before {
   height: 100%;
   background-image: url('./img/zellige.svg');
   background-repeat: repeat-x;
-  background-size: 25%;
+  background-size: 300px;
   opacity: 0.07;
   z-index: -1;
 }
